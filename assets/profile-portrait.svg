@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract professional portrait placeholder</title>
+  <desc id="desc">A warm abstract portrait shape in teal, amber, ivory, and plum.</desc>
+  <rect width="900" height="900" fill="#fffaf0"/>
+  <circle cx="450" cy="310" r="150" fill="#006d77"/>
+  <path fill="#8a3ffc" d="M177 852c25-193 132-305 273-305s248 112 273 305H177z"/>
+  <path fill="#f2b84b" d="M284 281c22-121 122-194 238-169 91 20 153 91 164 177-91-27-187-23-402-8z"/>
+  <circle cx="395" cy="305" r="18" fill="#1c2526"/>
+  <circle cx="503" cy="305" r="18" fill="#1c2526"/>
+  <path fill="none" stroke="#1c2526" stroke-linecap="round" stroke-width="18" d="M398 391c39 33 83 33 122 0"/>
+</svg>

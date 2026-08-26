@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Commerce product page preview</title>
+  <desc id="desc">A product detail page with image gallery, pricing, and checkout controls.</desc>
+  <rect width="1200" height="760" fill="#ffffff"/>
+  <rect x="88" y="88" width="1024" height="584" rx="18" fill="#f7f5ef" stroke="#cfd8d5" stroke-width="5"/>
+  <rect x="142" y="142" width="438" height="438" rx="18" fill="#006d77"/>
+  <circle cx="361" cy="356" r="130" fill="#f2b84b"/>
+  <rect x="650" y="156" width="314" height="42" rx="21" fill="#1c2526"/>
+  <rect x="650" y="242" width="400" height="26" rx="13" fill="#526061"/>
+  <rect x="650" y="302" width="358" height="26" rx="13" fill="#526061"/>
+  <rect x="650" y="386" width="160" height="64" rx="10" fill="#8a3ffc"/>
+  <rect x="835" y="386" width="160" height="64" rx="10" fill="#006d77"/>
+  <rect x="650" y="514" width="282" height="54" rx="10" fill="#1c2526"/>
+</svg>

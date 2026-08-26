@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact | Nakkul Gulati Portfolio</title>
+    <meta name="description" content="Contact Nakkul Gulati for full-stack development, AI web applications, React, Next.js, and project collaboration.">
+    <link rel="canonical" href="https://example.com/contact.html">
+    <meta property="og:title" content="Contact | Nakkul Gulati Portfolio">
+    <meta property="og:description" content="Get in touch with Nakkul Gulati about full-stack and AI-powered web development work.">
+    <meta property="og:image" content="https://example.com/assets/profile-portrait.svg">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Contact | Nakkul Gulati Portfolio">
+    <meta name="twitter:description" content="Get in touch with Nakkul Gulati about full-stack and AI-powered web development work.">
+    <meta name="twitter:image" content="https://example.com/assets/profile-portrait.svg">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header>
+      <nav aria-label="Primary navigation">
+        <a class="brand" href="index.html">Nakkul Gulati</a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section aria-labelledby="contact-title">
+        <h1 id="contact-title">Contact</h1>
+        <p class="lede">Based in Delhi, India, and open to project conversations around full-stack web development, AI tools, and creative technology.</p>
+      </section>
+
+      <section class="contact-grid" aria-labelledby="contact-form-heading">
+        <article>
+          <h2 id="contact-form-heading">Send a Message</h2>
+          <form action="#" method="post" aria-labelledby="contact-form-heading" novalidate>
+            <p>Required fields are marked with <span class="required">*</span>.</p>
+            <p>
+              <label for="name">Name <span class="required">*</span></label>
+              <input id="name" name="name" type="text" autocomplete="name" required aria-required="true" aria-describedby="name-error">
+              <span class="error" id="name-error" role="alert"><!-- Dynamic validation message for name goes here. --></span>
+            </p>
+            <p>
+              <label for="email">Email <span class="required">*</span></label>
+              <input id="email" name="email" type="email" autocomplete="email" required aria-required="true" aria-describedby="email-error">
+              <span class="error" id="email-error" role="alert"><!-- Dynamic validation message for email goes here. --></span>
+            </p>
+            <fieldset>
+              <legend>Preferred contact method</legend>
+              <p>
+                <input id="contact-email" name="contact-method" type="radio" value="email" checked>
+                <label for="contact-email">Email</label>
+              </p>
+              <p>
+                <input id="contact-phone" name="contact-method" type="radio" value="phone">
+                <label for="contact-phone">Phone</label>
+              </p>
+            </fieldset>
+            <p>
+              <label for="message">Message <span class="required">*</span></label>
+              <textarea id="message" name="message" required aria-required="true" aria-describedby="message-error"></textarea>
+              <span class="error" id="message-error" role="alert"><!-- Dynamic validation message for message goes here. --></span>
+            </p>
+            <button type="submit">Send message</button>
+          </form>
+        </article>
+        <aside aria-label="Direct contact details">
+          <h2>Direct Links</h2>
+          <ul class="contact-list">
+            <li><a href="mailto:nakulgulati1994@gmail.com">nakulgulati1994@gmail.com</a></li>
+            <li><a href="tel:+919625531077">+91 96255 31077</a></li>
+            <li><a href="https://www.linkedin.com/in/NakkulGulati">LinkedIn profile</a></li>
+            <li><a href="https://github.com/noxgoes">GitHub profile</a></li>
+          </ul>
+        </aside>
+      </section>
+    </main>
+
+    <footer>
+      <section aria-labelledby="footer-heading">
+        <h2 class="sr-only" id="footer-heading">Site Footer</h2>
+        <p>&copy; 2026 Nakkul Gulati. Built with semantic HTML.</p>
+        <ul>
+          <li><a href="https://github.com/noxgoes">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/NakkulGulati">LinkedIn</a></li>
+          <li><a href="mailto:nakulgulati1994@gmail.com">Email</a></li>
+        </ul>
+      </section>
+    </footer>
+  </body>
+</html>
