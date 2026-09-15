@@ -1,133 +1,116 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nakkul Gulati | Computer Science Portfolio</title>
-    <meta name="description" content="Portfolio of Nakkul Gulati, a B.Tech Computer Science student building AI-powered web platforms, e-commerce products, and creative developer tools.">
-    <link rel="canonical" href="https://example.com/">
-    <meta property="og:title" content="Nakkul Gulati | Computer Science Portfolio">
-    <meta property="og:description" content="AI-powered speaking practice, visual karaoke, e-commerce, and developer projects by Nakkul Gulati.">
-    <meta property="og:image" content="https://example.com/assets/profile-portrait.svg">
-    <meta property="og:type" content="profile">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Nakkul Gulati | Computer Science Portfolio">
-    <meta name="twitter:description" content="AI-powered speaking practice, visual karaoke, e-commerce, and developer projects by Nakkul Gulati.">
-    <meta name="twitter:image" content="https://example.com/assets/profile-portrait.svg">
-    <link rel="stylesheet" href="styles.css">
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "ProfilePage",
-        "dateModified": "2026-08-26",
-        "mainEntity": {
-          "@type": "Person",
-          "name": "Nakkul Gulati",
-          "jobTitle": "Computer Science Student and Full-Stack Developer",
-          "email": "mailto:nakulgulati1994@gmail.com",
-          "telephone": "+919625531077",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Delhi",
-            "addressCountry": "IN"
-          },
-          "url": "https://example.com/",
-          "sameAs": [
-            "https://www.linkedin.com/in/NakkulGulati",
-            "https://github.com/noxgoes"
-          ]
-        }
-      }
-    </script>
-  </head>
-  <body>
-    <a class="skip-link" href="#main-content">Skip to content</a>
-    <header>
-      <nav aria-label="Primary navigation">
-        <a class="brand" href="index.html">Nakkul Gulati</a>
-        <button class="theme-toggle" type="button" aria-label="Switch color theme" aria-pressed="false">Theme</button>
-        <ul>
-          <li><a href="index.html" aria-current="page">Home</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Premium personal portfolio for Nakkul, a visual designer and front-end creator blending digital textures, code, and accessible web craft.">
+  <meta name="keywords" content="Nakkul portfolio, design portfolio, front-end developer, digital borders, strings of code, visual designer">
+  <meta name="author" content="Nakkul">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Nakkul | Digital Designer Portfolio">
+  <meta property="og:description" content="Explore Nakkul's visual design, coded interfaces, project work, and GitHub activity.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com/">
+  <meta property="og:image" content="assets/nakkul-portrait.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Nakkul | Digital Designer Portfolio</title>
+  <link rel="canonical" href="https://example.com/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
-    <main id="main-content">
-      <section class="hero" aria-labelledby="home-title">
-        <article>
-          <h1 id="home-title">AI-focused full-stack developer.</h1>
-          <p class="lede">I am Nakkul Gulati, a B.Tech Computer Science student at Vivekananda Institute of Professional Studies in Delhi.</p>
-          <p>I build practical web products with React, Next.js, Node.js, AI APIs, and cloud deployment workflows, with interests spanning public speaking, music technology, e-commerce, and creative AI tools.</p>
-          <p class="button-row">
-            <a class="button" href="projects.html">View projects</a>
-            <a class="button secondary" href="contact.html">Contact me</a>
-          </p>
-        </article>
-        <aside class="portrait" aria-label="Professional profile image">
-          <img src="assets/profile-portrait.svg" alt="Abstract portrait representing Nakkul Gulati">
-        </aside>
-      </section>
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a class="brand" href="index.html" aria-current="page">Nakkul</a>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Work</a></li>
+        <li><a href="#github-activity">Experiments</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><button id="theme-toggle" class="button secondary" style="min-height:30px; padding:0 0.75rem; border:1px solid var(--line); border-radius:15px;">Toggle Theme</button></li>
+      </ul>
+    </nav>
+  </header>
 
-      <section class="content-grid" aria-labelledby="about-heading">
-        <article>
-          <h2 id="about-heading">About</h2>
-          <p>I am currently pursuing B.Tech Computer Science, with a GPA of 8.28 out of 10, and I enjoy turning technical ideas into polished, usable products.</p>
-          <p>My project work includes AI-powered public speaking practice, visual karaoke powered by audio analysis, a Stripe-enabled football jersey store, and a Hugging Face avatar generator.</p>
-        </article>
-        <aside aria-label="Core strengths">
-          <h2>Skills</h2>
-          <ul class="tag-list">
-            <li>Python</li>
-            <li>Java</li>
-            <li>JavaScript</li>
-            <li>React.js</li>
-            <li>Next.js</li>
-            <li>Node.js</li>
-            <li>Supabase</li>
-            <li>Firebase</li>
-            <li>TensorFlow</li>
-            <li>PyTorch</li>
-          </ul>
-        </aside>
-      </section>
+  <main id="main-content">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Dev who loves to design</p>
+        <h1 id="hero-title">Building intelligent platforms with <span>impact.</span></h1>
+        <p>I design and engineer web applications, integrate AI pipelines, and build scalable digital products.</p>
+        <div class="actions" aria-label="Portfolio actions">
+          <a class="button primary" href="projects.html">View selected work <span aria-hidden="true">&rarr;</span></a>
+          <a class="button secondary" href="contact.html">Get in touch</a>
+        </div>
+        <a class="scroll-cue" href="#focus-title">Scroll to explore <span aria-hidden="true">&darr;</span></a>
+      </div>
+      <figure class="hero-art" style="display: flex; justify-content: center; align-items: center;">
+        <img src="assets/profile.png" alt="Nakkul Gulati" style="border-radius: 1.5rem; width: 100%; max-width: 480px; box-shadow: var(--shadow);">
+      </figure>
+    </section>
 
-      <section class="project-grid" aria-labelledby="featured-heading">
-        <h2 id="featured-heading">Featured Projects</h2>
+    <section class="section" aria-labelledby="focus-title">
+      <div class="section-heading">
+        <p class="eyebrow">Creative system</p>
+        <h2 id="focus-title">A portfolio with more attitude and better hierarchy</h2>
+      </div>
+      <div class="feature-grid">
         <article>
-          <img src="assets/project-dashboard.svg" alt="Dashboard-style interface preview representing BLAB public speaking analytics">
-          <h3>BLAB</h3>
-          <p>An AI-powered public speaking practice platform with timed spontaneous speaking challenges and feedback on vocabulary, fluency, clarity, and communication effectiveness.</p>
-          <a href="projects.html#blab">Read project details</a>
+          <h3>Visual Direction</h3>
+          <p>Bold editorial layouts, poster-like energy, tight spacing, and a visual language that matches the artwork.</p>
         </article>
         <article>
-          <img src="assets/project-accessibility.svg" alt="Checklist-style interface preview representing Kara audio synchronization features">
-          <h3>Kara</h3>
-          <p>An AI-powered visual karaoke platform that transforms songs into synchronized lyric and pitch-driven visual experiences.</p>
-          <a href="projects.html#kara">Read project details</a>
+          <h3>Interface Polish</h3>
+          <p>Premium cards, clean typography, hover states, responsive rhythm, and focused content sections.</p>
         </article>
         <article>
-          <img src="assets/project-commerce.svg" alt="Commerce product page preview representing Nomastore">
-          <h3>Nomastore</h3>
-          <p>A production-ready e-commerce platform for retro football jerseys and sports memorabilia with cart and Stripe checkout flows.</p>
-          <a href="projects.html#nomastore">Read project details</a>
+          <h3>Accessible Code</h3>
+          <p>Semantic landmarks, readable contrast, keyboard navigation, and SEO-friendly metadata across pages.</p>
         </article>
-      </section>
-    </main>
+      </div>
+    </section>
 
-    <footer>
-      <section aria-labelledby="footer-heading">
-        <h2 class="sr-only" id="footer-heading">Site Footer</h2>
-        <p>&copy; 2026 Nakkul Gulati. Built with semantic HTML.</p>
-        <ul>
-          <li><a href="https://github.com/noxgoes">GitHub</a></li>
-          <li><a href="https://www.linkedin.com/in/NakkulGulati">LinkedIn</a></li>
-          <li><a href="mailto:nakulgulati1994@gmail.com">Email</a></li>
-        </ul>
-      </section>
-    </footer>
-    <script src="theme.js"></script>
-  </body>
+    <section class="section github-panel" id="github-activity" aria-labelledby="github-title">
+      <div class="github-copy">
+        <p class="eyebrow">GitHub Activity</p>
+        <h2 id="github-title">Connected code rhythm</h2>
+        <p>A contribution-grid style module for your portfolio. Replace the profile URL with your GitHub username when you are ready to make it live.</p>
+        <a class="button dark" href="https://github.com/" target="_blank" rel="noopener noreferrer">Open GitHub</a>
+      </div>
+      <div class="contribution-card" aria-label="GitHub contribution activity preview">
+        <div class="contribution-header">
+          <strong>2026 contribution grid</strong>
+          <span>Design + code streak</span>
+        </div>
+        <div class="github-grid" role="img" aria-label="Decorative GitHub-style contribution grid showing varied activity levels">
+          <span data-level="0"></span><span data-level="1"></span><span data-level="0"></span><span data-level="2"></span><span data-level="3"></span><span data-level="1"></span><span data-level="0"></span>
+          <span data-level="2"></span><span data-level="3"></span><span data-level="1"></span><span data-level="4"></span><span data-level="2"></span><span data-level="0"></span><span data-level="1"></span>
+          <span data-level="0"></span><span data-level="2"></span><span data-level="4"></span><span data-level="4"></span><span data-level="1"></span><span data-level="3"></span><span data-level="2"></span>
+          <span data-level="1"></span><span data-level="0"></span><span data-level="2"></span><span data-level="3"></span><span data-level="4"></span><span data-level="2"></span><span data-level="1"></span>
+          <span data-level="3"></span><span data-level="1"></span><span data-level="0"></span><span data-level="2"></span><span data-level="3"></span><span data-level="4"></span><span data-level="2"></span>
+          <span data-level="4"></span><span data-level="2"></span><span data-level="1"></span><span data-level="3"></span><span data-level="2"></span><span data-level="1"></span><span data-level="0"></span>
+          <span data-level="2"></span><span data-level="3"></span><span data-level="4"></span><span data-level="1"></span><span data-level="0"></span><span data-level="2"></span><span data-level="3"></span>
+          <span data-level="1"></span><span data-level="0"></span><span data-level="2"></span><span data-level="4"></span><span data-level="3"></span><span data-level="2"></span><span data-level="1"></span>
+        </div>
+        <div class="contribution-legend" aria-hidden="true">
+          <span>Less</span><i data-level="0"></i><i data-level="1"></i><i data-level="2"></i><i data-level="3"></i><i data-level="4"></i><span>More</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Nakkul. Built with semantic HTML5.</p>
+    <nav aria-label="Footer navigation">
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </footer>
+  <script src="script.js"></script>
+</body>
 </html>

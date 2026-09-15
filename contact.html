@@ -1,99 +1,108 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contact | Nakkul Gulati Portfolio</title>
-    <meta name="description" content="Contact Nakkul Gulati for full-stack development, AI web applications, React, Next.js, and project collaboration.">
-    <link rel="canonical" href="https://example.com/contact.html">
-    <meta property="og:title" content="Contact | Nakkul Gulati Portfolio">
-    <meta property="og:description" content="Get in touch with Nakkul Gulati about full-stack and AI-powered web development work.">
-    <meta property="og:image" content="https://example.com/assets/profile-portrait.svg">
-    <meta property="og:type" content="website">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Contact | Nakkul Gulati Portfolio">
-    <meta name="twitter:description" content="Get in touch with Nakkul Gulati about full-stack and AI-powered web development work.">
-    <meta name="twitter:image" content="https://example.com/assets/profile-portrait.svg">
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <a class="skip-link" href="#main-content">Skip to content</a>
-    <header>
-      <nav aria-label="Primary navigation">
-        <a class="brand" href="index.html">Nakkul Gulati</a>
-        <button class="theme-toggle" type="button" aria-label="Switch color theme" aria-pressed="false">Theme</button>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="contact.html" aria-current="page">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Nakkul about visual front-end design, semantic HTML, portfolio work, and inclusive web projects.">
+  <meta name="author" content="Nakkul">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Contact Nakkul | Visual Front-End Portfolio">
+  <meta property="og:description" content="Send a project inquiry to Nakkul through an accessible, keyboard-friendly contact form.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com/contact.html">
+  <meta name="twitter:card" content="summary">
+  <title>Contact Nakkul | Visual Front-End Portfolio</title>
+  <link rel="canonical" href="https://example.com/contact.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
-    <main id="main-content">
-      <section aria-labelledby="contact-title">
-        <h1 id="contact-title">Contact</h1>
-        <p class="lede">Based in Delhi, India, and open to project conversations around full-stack web development, AI tools, and creative technology.</p>
-      </section>
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a class="brand" href="index.html">Nakkul</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-      <section class="contact-grid" aria-labelledby="contact-form-heading">
-        <article>
-          <h2 id="contact-form-heading">Send a Message</h2>
-          <form action="#" method="post" aria-labelledby="contact-form-heading" novalidate>
-            <p>Required fields are marked with <span class="required">*</span>.</p>
-            <p>
-              <label for="name">Name <span class="required">*</span></label>
-              <input id="name" name="name" type="text" autocomplete="name" required aria-required="true" aria-describedby="name-error">
-              <span class="error" id="name-error" role="alert"><!-- Dynamic validation message for name goes here. --></span>
-            </p>
-            <p>
-              <label for="email">Email <span class="required">*</span></label>
-              <input id="email" name="email" type="email" autocomplete="email" required aria-required="true" aria-describedby="email-error">
-              <span class="error" id="email-error" role="alert"><!-- Dynamic validation message for email goes here. --></span>
-            </p>
-            <fieldset>
-              <legend>Preferred contact method</legend>
-              <p>
-                <input id="contact-email" name="contact-method" type="radio" value="email" checked>
-                <label for="contact-email">Email</label>
-              </p>
-              <p>
-                <input id="contact-phone" name="contact-method" type="radio" value="phone">
-                <label for="contact-phone">Phone</label>
-              </p>
-            </fieldset>
-            <p>
-              <label for="message">Message <span class="required">*</span></label>
-              <textarea id="message" name="message" required aria-required="true" aria-describedby="message-error"></textarea>
-              <span class="error" id="message-error" role="alert"><!-- Dynamic validation message for message goes here. --></span>
-            </p>
-            <button type="submit">Send message</button>
-          </form>
-        </article>
-        <aside aria-label="Direct contact details">
-          <h2>Direct Links</h2>
-          <ul class="contact-list">
-            <li><a href="mailto:nakulgulati1994@gmail.com">nakulgulati1994@gmail.com</a></li>
-            <li><a href="tel:+919625531077">+91 96255 31077</a></li>
-            <li><a href="https://www.linkedin.com/in/NakkulGulati">LinkedIn profile</a></li>
-            <li><a href="https://github.com/noxgoes">GitHub profile</a></li>
-          </ul>
-        </aside>
-      </section>
-    </main>
+  <main id="main-content">
+    <section class="page-intro" aria-labelledby="contact-title">
+      <p class="eyebrow">Contact</p>
+      <h1 id="contact-title">Start a conversation about accessible web work.</h1>
+      <p>Use the form below to share project details. Every field is reachable by keyboard and has a persistent accessible label.</p>
+    </section>
 
-    <footer>
-      <section aria-labelledby="footer-heading">
-        <h2 class="sr-only" id="footer-heading">Site Footer</h2>
-        <p>&copy; 2026 Nakkul Gulati. Built with semantic HTML.</p>
-        <ul>
-          <li><a href="https://github.com/noxgoes">GitHub</a></li>
-          <li><a href="https://www.linkedin.com/in/NakkulGulati">LinkedIn</a></li>
-          <li><a href="mailto:nakulgulati1994@gmail.com">Email</a></li>
-        </ul>
-      </section>
-    </footer>
-    <script src="theme.js"></script>
-  </body>
+    <section class="section contact-layout" aria-labelledby="form-title">
+      <aside class="contact-aside" aria-labelledby="contact-details-title">
+        <h2 id="contact-details-title">Contact details</h2>
+        <address>
+          <a href="mailto:nakkul@example.com">nakkul@example.com</a><br>
+          <a href="tel:+15550141410">+1 555 014 1410</a>
+        </address>
+        <p>Available for visual portfolio builds, accessibility audits, and front-end implementation.</p>
+      </aside>
+
+      <form class="contact-form" id="contact-form" action="#" method="post" aria-labelledby="form-title" novalidate>
+        <h2 id="form-title">Project inquiry</h2>
+        <p id="form-help">Required fields are marked with an asterisk.</p>
+
+        <div class="form-field">
+          <label for="name">Name <span aria-hidden="true">*</span></label>
+          <input id="name" name="name" type="text" autocomplete="name" required aria-describedby="name-error">
+          <p class="error" id="name-error" aria-live="polite"></p>
+        </div>
+
+        <div class="form-field">
+          <label for="email">Email <span aria-hidden="true">*</span></label>
+          <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error">
+          <p class="error" id="email-error" aria-live="polite"></p>
+        </div>
+
+        <fieldset>
+          <legend>Project type</legend>
+          <div class="radio-row">
+            <label><input type="radio" name="project-type" value="portfolio" checked> Portfolio</label>
+            <label><input type="radio" name="project-type" value="audit"> Accessibility audit</label>
+            <label><input type="radio" name="project-type" value="frontend"> Front-end build</label>
+          </div>
+        </fieldset>
+
+        <div class="form-field">
+          <label for="message">Message <span aria-hidden="true">*</span></label>
+          <textarea id="message" name="message" rows="6" required aria-describedby="message-hint message-error"></textarea>
+          <p class="hint" id="message-hint">Share goals, timeline, and any accessibility requirements.</p>
+          <p class="error" id="message-error" aria-live="polite"></p>
+        </div>
+
+        <label class="checkbox">
+          <input type="checkbox" name="consent" required aria-describedby="consent-error">
+          <span>I agree to be contacted about this inquiry.</span>
+        </label>
+        <p class="error" id="consent-error" aria-live="polite"></p>
+
+        <button class="button primary" type="submit">Send inquiry</button>
+        <p id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Nakkul. Built with semantic HTML5.</p>
+    <nav aria-label="Footer navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+    </nav>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
